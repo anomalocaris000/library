@@ -17,6 +17,16 @@ public class Library
         readers.Add(reader);
     }
 
+    public void AddIssue(int bookId, int readerId, DateTime date)
+    {
+        issues.Add((bookId, readerId, date));
+    }
+
+    public void AddReturn(int bookId, int readerId, DateTime date)
+    {
+        returns.Add((bookId, readerId, date));
+    }
+
     public Book? FindBook(int id)
     {
         return books.FirstOrDefault(b => b.Id == id);

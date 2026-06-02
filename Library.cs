@@ -4,6 +4,8 @@ public class Library
 {
     private List<Book> books = new();
     private List<Reader> readers = new();
+    private List<(int BookId, int ReaderId, DateTime Date)> issues = new();
+    private List<(int BookId, int ReaderId, DateTime Date)> returns = new();
 
     public void AddBook(Book book)
     {
@@ -39,7 +41,9 @@ public class Library
         if (!book.IsAvailable)
             throw new Exception("Книга уже выдана");
 
-        return new BookIssue(book, reader);
+        var issue = new BookIssue(book, reader);
+        issues.Add((bookId, readerId, issue.IssueDate));
+        return issue;
     }
 
     public BookReturn ReturnBook(int bookId, int readerId)
@@ -53,6 +57,13 @@ public class Library
         if (reader == null)
             throw new Exception("Читатель не найден");
 
-        return new BookReturn(book, reader);
+        var ret = new BookReturn(book, reader);
+        returns.Add((bookId, readerId, ret.ReturnDate));
+        return ret;
     }
+
+    public List<Book> GetBooks() => books;
+    public List<Reader> GetReaders() => readers;
+    public List<(int BookId, int ReaderId, DateTime Date)> GetIssues() => issues;
+    public List<(int BookId, int ReaderId, DateTime Date)> GetReturns() => returns;
 }

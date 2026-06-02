@@ -106,12 +106,20 @@ public class LibraryForm : Form
         {
             var books = storage.LoadBooksFromText();
             var readers = storage.LoadReadersFromText();
+            var issues = storage.LoadIssuesFromText();
+            var returns = storage.LoadReturnsFromText();
 
             foreach (var book in books)
                 library.AddBook(book);
 
             foreach (var reader in readers)
                 library.AddReader(reader);
+
+            foreach (var issue in issues)
+                library.AddIssue(issue.BookId, issue.ReaderId, issue.Date);
+
+            foreach (var ret in returns)
+                library.AddReturn(ret.BookId, ret.ReaderId, ret.Date);
 
             if (library.GetBooks().Count > 0)
             {
@@ -141,6 +149,12 @@ public class LibraryForm : Form
 
             foreach (var reader in readers)
                 library.AddReader(reader);
+
+            foreach (var issue in issues)
+                library.AddIssue(issue.BookId, issue.ReaderId, issue.Date);
+
+            foreach (var ret in returns)
+                library.AddReturn(ret.BookId, ret.ReaderId, ret.Date);
 
             DisplayMessage("Данные успешно загружены из текстовых файлов", true);
             DisplayMessage($"Загружено книг: {books.Count}", true);
@@ -190,6 +204,12 @@ public class LibraryForm : Form
 
             foreach (var reader in readers)
                 library.AddReader(reader);
+
+            foreach (var issue in issues)
+                library.AddIssue(issue.BookId, issue.ReaderId, issue.Date);
+
+            foreach (var ret in returns)
+                library.AddReturn(ret.BookId, ret.ReaderId, ret.Date);
 
             DisplayMessage("Данные успешно загружены из JSON файлов", true);
             DisplayMessage($"Загружено книг: {books.Count}", true);

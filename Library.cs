@@ -66,4 +66,12 @@ public class Library
     public List<Reader> GetReaders() => readers;
     public List<(int BookId, int ReaderId, DateTime Date)> GetIssues() => issues;
     public List<(int BookId, int ReaderId, DateTime Date)> GetReturns() => returns;
+
+    public void ClearData()
+    {
+        books.Clear();
+        readers.Clear();
+        issues.Clear();
+        returns.Clear();
+    }
 }

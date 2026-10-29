@@ -1,0 +1,23 @@
+﻿[
+  {
+    "Id": 1,
+    "Title": "\u0412\u043E\u0439\u043D\u0430 \u0438 \u043C\u0438\u0440",
+    "Author": "\u041B.\u041D. \u0422\u043E\u043B\u0441\u0442\u043E\u0439",
+    "Year": 1869,
+    "IsAvailable": true
+  },
+  {
+    "Id": 2,
+    "Title": "\u041F\u0440\u0435\u0441\u0442\u0443\u043F\u043B\u0435\u043D\u0438\u0435 \u0438 \u043D\u0430\u043A\u0430\u0437\u0430\u043D\u0438\u0435",
+    "Author": "\u0424.\u041C. \u0414\u043E\u0441\u0442\u043E\u0435\u0432\u0441\u043A\u0438\u0439",
+    "Year": 1866,
+    "IsAvailable": true
+  },
+  {
+    "Id": 3,
+    "Title": "\u042B\u042B\u042B\u042B\u042B\u042B\u042B\u042B\u042B\u042B\u042B\u042B\u042B",
+    "Author": "\u042B\u042B\u042B\u042B\u042B\u042B\u042B\u042B\u042B\u042B\u042B\u042B",
+    "Year": 1,
+    "IsAvailable": false
+  }
+]

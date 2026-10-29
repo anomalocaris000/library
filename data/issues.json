@@ -1,0 +1,17 @@
+﻿[
+  {
+    "BookId": 3,
+    "ReaderId": 1,
+    "IssueDate": "2026-06-01T10:00:00"
+  },
+  {
+    "BookId": 5,
+    "ReaderId": 2,
+    "IssueDate": "2026-06-01T11:30:00"
+  },
+  {
+    "BookId": 2,
+    "ReaderId": 3,
+    "IssueDate": "2026-06-01T12:15:00"
+  }
+]

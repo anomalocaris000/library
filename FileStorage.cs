@@ -17,7 +17,7 @@ public class FileStorage
             Directory.CreateDirectory(dataDir);
     }
 
-    // === ТЕКСТОВЫЕ ФАЙЛЫ ===
+
 
     public void SaveBooksToText(List<Book> books)
     {
@@ -190,7 +190,7 @@ public class FileStorage
         return returns;
     }
 
-    // === JSON ФАЙЛЫ ===
+
 
     public void SaveBooksToJson(List<Book> books)
     {

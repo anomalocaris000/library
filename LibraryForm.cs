@@ -31,14 +31,14 @@ public class LibraryForm : Form
         this.StartPosition = FormStartPosition.CenterScreen;
         this.Font = new Font("Arial", 10);
 
-        // Создание панели с кнопками
+
         Panel pnlButtons = new Panel();
         pnlButtons.Dock = DockStyle.Top;
         pnlButtons.Height = 80;
         pnlButtons.Padding = new Padding(10);
         pnlButtons.BackColor = Color.LightGray;
 
-        // Кнопка загрузки текстовых файлов
+
         btnLoadText = new Button();
         btnLoadText.Text = "Загрузить TXT";
         btnLoadText.Width = 150;
@@ -48,7 +48,7 @@ public class LibraryForm : Form
         btnLoadText.Click += BtnLoadText_Click;
         pnlButtons.Controls.Add(btnLoadText);
 
-        // Кнопка сохранения текстовых файлов
+
         btnSaveText = new Button();
         btnSaveText.Text = "Сохранить TXT";
         btnSaveText.Width = 150;
@@ -58,7 +58,7 @@ public class LibraryForm : Form
         btnSaveText.Click += BtnSaveText_Click;
         pnlButtons.Controls.Add(btnSaveText);
 
-        // Кнопка загрузки JSON файлов
+
         btnLoadJson = new Button();
         btnLoadJson.Text = "Загрузить JSON";
         btnLoadJson.Width = 150;
@@ -68,7 +68,7 @@ public class LibraryForm : Form
         btnLoadJson.Click += BtnLoadJson_Click;
         pnlButtons.Controls.Add(btnLoadJson);
 
-        // Кнопка сохранения JSON файлов
+
         btnSaveJson = new Button();
         btnSaveJson.Text = "Сохранить JSON";
         btnSaveJson.Width = 150;
@@ -78,7 +78,7 @@ public class LibraryForm : Form
         btnSaveJson.Click += BtnSaveJson_Click;
         pnlButtons.Controls.Add(btnSaveJson);
 
-        // Создание статус-лабели
+
         lblStatus = new Label();
         lblStatus.Text = "Статус: готово";
         lblStatus.Location = new Point(10, 50);
@@ -89,7 +89,7 @@ public class LibraryForm : Form
 
         this.Controls.Add(pnlButtons);
 
-        // Создание текстбокса для вывода
+
         txtOutput = new TextBox();
         txtOutput.Dock = DockStyle.Fill;
         txtOutput.Multiline = true;

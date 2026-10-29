@@ -1,0 +1,15 @@
+C:\Users\fijoy\RiderProjects\library\bin\Debug\net10.0-windows\LibraryApp.exe
+C:\Users\fijoy\RiderProjects\library\bin\Debug\net10.0-windows\LibraryApp.deps.json
+C:\Users\fijoy\RiderProjects\library\bin\Debug\net10.0-windows\LibraryApp.runtimeconfig.json
+C:\Users\fijoy\RiderProjects\library\bin\Debug\net10.0-windows\LibraryApp.dll
+C:\Users\fijoy\RiderProjects\library\bin\Debug\net10.0-windows\LibraryApp.pdb
+C:\Users\fijoy\RiderProjects\library\obj\Debug\net10.0-windows\LibraryApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fijoy\RiderProjects\library\obj\Debug\net10.0-windows\LibraryApp.AssemblyInfoInputs.cache
+C:\Users\fijoy\RiderProjects\library\obj\Debug\net10.0-windows\LibraryApp.AssemblyInfo.cs
+C:\Users\fijoy\RiderProjects\library\obj\Debug\net10.0-windows\LibraryApp.csproj.CoreCompileInputs.cache
+C:\Users\fijoy\RiderProjects\library\obj\Debug\net10.0-windows\LibraryApp.sourcelink.json
+C:\Users\fijoy\RiderProjects\library\obj\Debug\net10.0-windows\LibraryApp.dll
+C:\Users\fijoy\RiderProjects\library\obj\Debug\net10.0-windows\refint\LibraryApp.dll
+C:\Users\fijoy\RiderProjects\library\obj\Debug\net10.0-windows\LibraryApp.pdb
+C:\Users\fijoy\RiderProjects\library\obj\Debug\net10.0-windows\LibraryApp.genruntimeconfig.cache
+C:\Users\fijoy\RiderProjects\library\obj\Debug\net10.0-windows\ref\LibraryApp.dll
